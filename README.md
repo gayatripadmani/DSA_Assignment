@@ -1,5 +1,3 @@
 # DSA_Assignmnet
 
-Branch ---
-
-print array
+Declare and print array
