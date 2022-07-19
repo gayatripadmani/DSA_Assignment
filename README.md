@@ -1,2 +1,5 @@
 # DSA_Assignmnet
-DSA Assignment
+
+Branch ---
+
+print array
