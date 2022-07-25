@@ -1,21 +1,39 @@
 #include<iostream>
 using namespace std;
 
-int main()
+int main(int argc, char** argv) 
 {
-    int arr[100], size, i, sum = 0;
-    
-    cout << endl << "Enter array size: ";
-    cin >> size;
+    int n;
+    int temp;
+    int pom;
 
-    cout << endl << "Enter array elements: ";
-    for(i = 0; i < size; i++)
-          cin >> arr[i];
-          
-    for(i = 0; i < size; i++)
-          sum = sum + arr[i]; 
-    
-    cout << endl << "Sum of the array = " << sum;
-    
+    cout << "Enter how many numbers you want to calculate sum of digits: ";
+    cin >> n;
+
+    int a[n];
+    int sum[n];
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Enter numbers: ";
+        cin >> a[i];
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        while (a[i] > 0)
+        {
+        temp = a[i] % 10;
+        sum[i]+= temp;
+        a[i] = a[i]/10; 
+        }
+
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Sum of " << i << " number is: " << sum[i] << endl;
+    }
+
     return 0;
 }
