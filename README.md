@@ -1,7 +1,3 @@
-# DSA_Assignmnet
+Sorting
 
-Branch ---
-
-print array
-
-Pointer
+dynamic array selection sort
