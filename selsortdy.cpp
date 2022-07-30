@@ -1,3 +1,5 @@
+//dynamic array selection sort
+
 #include <iostream>
 using namespace std;
 
