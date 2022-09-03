@@ -1,9 +1,7 @@
-# DSA_Assignmnet
+# DSA_Assignmnet - Array
 
-Pointer - array
+Q1. Consider Array of 5 elements, print address of 5 elements. Take address of 0th element and calculate address of other elements manually.
 
-pointer
+Q2. Calculate sum of array elements using function and without function. Do the dry run as well.
 
-sorting
-
-Array
+Q3. Execute the program and try dry run for a[2], *a+2, a+2, *(a+2)
