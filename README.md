@@ -1,7 +1,5 @@
-# DSA_Assignmnet 
+# DSA_Assignmnet - Searching
 
-Array
+1. Submit code for Linear and Binary Search.
 
-Pointer
-
-Sorting
+2. Derive address calculation formula for 1D array if you are given with Base address
